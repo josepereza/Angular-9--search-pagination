@@ -4,8 +4,8 @@
 "# Angular9-pagination-search" 
 "# Angular-9--search-pagination" 
 ## Search Filter Pipe - Busqueda para Angular 8/9
-https://www.npmjs.com/package/ng2-search-filter
-https://github.com/solodynamo/ng2-search-filter#readme
+* https://www.npmjs.com/package/ng2-search-filter
+* https://github.com/solodynamo/ng2-search-filter#readme
 ### Install
 npm i ng2-search-filter --save
 yarn add ng2-search-filter 
