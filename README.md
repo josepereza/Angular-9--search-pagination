@@ -51,7 +51,9 @@ export class AppComponent {
 }
 ```
 Support ng2-search-filter
-# ngx-pagination -Pagination for Angular 
+# ngx-pagination -Pagination for Angular
+https://www.npmjs.com/package/ngx-pagination
+https://github.com/michaelbromley/ngx-pagination#readme
 ## Simple Example
 ```
 // app.module.ts
