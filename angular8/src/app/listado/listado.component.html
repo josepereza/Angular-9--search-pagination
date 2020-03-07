@@ -1,0 +1,35 @@
+<p>listado works!</p>
+<form [formGroup]="profileForm"  (ngSubmit)="onSubmit()">
+  
+    <label>
+      Product Name:
+      <input type="text" formControlName="prod_name">
+    </label>
+  
+    <label>
+      Descripcion:
+      <input type="text" formControlName="prod_desc">
+    </label>
+
+    <label>
+        Precio:
+        <input type="number" formControlName="prod_price">
+      </label>
+    <button type="submit" [disabled]="!profileForm.valid">Agregar</button>
+    <button *ngIf=actualizar (click)="onFormSubmit()">editar</button>
+
+  </form>
+
+<p>Productoss:</p>
+<label>
+  Buscar
+<input type="text" [(ngModel)]="term">
+</label>
+  <ul>
+    <li *ngFor="let product  of data | filter:term | paginate: { itemsPerPage: 4, currentPage: p }">
+      {{ product.prod_name+''+product.prod_desc }}<button (click)="editar(product._id)">editar</button>
+      <button (click)="borrar(product._id)">Borrar</button>
+    </li>
+  </ul>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+`
