@@ -3,7 +3,7 @@
 ![angular](angular9.png)
 "# Angular9-pagination-search" 
 "# Angular-9--search-pagination" 
-## Angular 2 / Angular 4 / Angular 5 Search Filter Pipe
+## Search Filter Pipe - Busqueda para Angular 8/9
 https://www.npmjs.com/package/ng2-search-filter
 https://github.com/solodynamo/ng2-search-filter#readme
 ### Install
@@ -51,10 +51,10 @@ export class AppComponent {
 }
 ```
 Support ng2-search-filter
-# ngx-pagination -Pagination for Angular
+## ngx-pagination -Pagination for Angular
 https://www.npmjs.com/package/ngx-pagination
 https://github.com/michaelbromley/ngx-pagination#readme
-## Simple Example
+### Simple Example
 ```
 // app.module.ts
 import {NgModule} from '@angular/core';
