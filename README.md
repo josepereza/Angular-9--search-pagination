@@ -4,6 +4,7 @@
 "# Angular9-pagination-search" 
 "# Angular-9--search-pagination" 
 ## Angular 2 / Angular 4 / Angular 5 Search Filter Pipe
+https://www.npmjs.com/package/ng2-search-filter
 ### Install
 npm i ng2-search-filter --save
 yarn add ng2-search-filter 
